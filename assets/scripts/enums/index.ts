@@ -1,0 +1,48 @@
+// 瓦片图类型
+export enum TILE_TYPE_ENUM {
+    WALL_ROW = "WALL_ROW",
+    WALL_COLUMN = "WALL_COLUMN",
+    WALL_LEFT_TOP = "WALL_LEFT_TOP",
+    WALL_LEFT_BOTTOM = "WALL_LEFT_BOTTOM",
+    WALL_RIGHT_TOP = "WALL_RIGHT_TOP",
+    WALL_RIGHT_BOTTOM = "WALL_RIGHT_BOTTOM",
+    CLIFF_CENTER = "CLIFF_CENTER",
+    CLIFF_LEFT = "CLIFF_LEFT",
+    CLIFF_RIGHT = "CLIFF_RIGHT",
+    FLOOR = "FLOOR",
+}
+
+// 事件枚举
+export enum EVENT_ENUM {
+    NEXT_LEVEL = "NEXT_LEVEL",
+    PLAYER_MOVE = "PLAYER_MOVE",
+    TURN_ANIM_FINISHED = "TURN_ANIM_FINISHED",
+    PLAYER_MOVE_FINISHED = "PLAYER_MOVE_FINISHED",
+}
+
+// 输入的方向
+export enum INPUT_DIRECTION_ENUM {
+    TOP = "TOP",
+    BOTTOM = "BOTTOM",
+    LEFT = "LEFT",
+    RIGHT = "RIGHT",
+    TURN_LEFT = "TURN_LEFT",
+    TURN_RIGHT = "TURN_RIGHT",
+}
+
+// 动画主状态
+export enum MAIN_ANIM_TYPE_ENUM {
+    IDLE = "IDLE",
+    TURN_LEFT = "TURN_LEFT",
+    TURN_RIGHT = "TURN_RIGHT",
+    ATTACK = "ATTACK",
+    DEATH = "DEATH",
+}
+
+// 游戏内方向
+export enum GAME_DIRECTION_ENUM {
+    TOP = "TOP",
+    BOTTOM = "BOTTOM",
+    LEFT = "LEFT",
+    RIGHT = "RIGHT",
+}
